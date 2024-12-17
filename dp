@@ -1,0 +1,32 @@
+ 1. Create Tensors and perform basic operations with tensors
+import numpy as np
+t = np.array([[1, 2, 3], [4, 5, 6]])
+t1 = t * 2
+print(t1)
+[[ 2 4 6]
+ [ 8 10 12]]
+# Element-wise addition
+t2 = t + 3
+print(" \n" , t2)
+ [[4 5 6]
+ [7 8 9]]
+# Element-wise exponentiation
+t3 = np.power(t, 2)
+print(" \n" ,t3)
+ [[ 1 4 9]
+ [16 25 36]]
+# Transpose
+t4 = np.transpose(t)
+print(" \n" ,t4)
+ [[1 4]
+ [2 5]
+ [3 6]]
+2. Create Tensors and apply split & merge operations and
+statistics operations.
+
+import numpy as np
+# Get user input for tensor dimensions
+rows = int(input("Enter number of rows: "))
+cols = int(input("Enter number of columns: "))
+Enter number of rows: 2
+Enter number of columns: 2
